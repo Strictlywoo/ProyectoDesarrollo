@@ -1,0 +1,114 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 12 mar 2026, 11:30:06 a. m.
+    Author     : Axel
+*/
+
+body{
+    background:#0f0f0f;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#ffb300;
+}
+
+.menu a{
+    text-decoration:none;
+    color:white;
+    margin:0 20px;
+    font-size:18px;
+    transition:0.3s;
+}
+
+.menu a:hover{
+    color:#ffb300;
+}
+
+/* HERO */
+
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:80px;
+}
+
+/* TEXTO */
+
+.hero-text{
+    max-width:500px;
+}
+
+.hero-text h1{
+    font-size:70px;
+    font-weight:bold;
+}
+
+.hero-text span{
+    color:#ffb300;
+}
+
+.hero-text p{
+    margin-top:20px;
+    color:#bbb;
+    line-height:1.6;
+}
+
+/* BOTON */
+
+.btn-menu{
+    display:inline-block;
+    margin-top:30px;
+    padding:12px 30px;
+    background:#ffb300;
+    color:black;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+.btn-menu:hover{
+    background:#e69c00;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.navbar a:hover{
+    color: #ffc107;
+}
+
+.footer{
+    text-align:center;
+    padding:25px;
+    background:#0f0f0f;
+    border-top:1px solid #222;
+    color:#aaa;
+    font-size:14px;
+}
+
+/* IMAGEN */
+
+.hero-img img{
+    width:500px;
+}
